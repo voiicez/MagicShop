@@ -1,0 +1,1133 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.15f1 (b58023a2b463) revision 11894819'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'tr' Physical Memory: 32689 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+M:/Unity/Projeler/MagicShopSim
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55937
+Successfully changed project path to: M:/Unity/Projeler/MagicShopSim
+M:/Unity/Projeler/MagicShopSim
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [37504] Host "[IP] 192.168.1.43 [Port] 0 [Flags] 2 [Guid] 382655569 [EditorId] 382655569 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A33FNI3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [37504] Host "[IP] 192.168.1.43 [Port] 0 [Flags] 2 [Guid] 382655569 [EditorId] 382655569 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-A33FNI3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 8.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.15f1 (b58023a2b463)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path M:/Unity/Projeler/MagicShopSim/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   NVIDIA
+    VRAM:     5954 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011921 seconds.
+- Loaded All Assemblies, in  0.355 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 352 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.691 seconds
+Domain Reload Profiling: 1044ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (123ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (691ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (630ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (453ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.622 seconds
+Refreshing native plugins compatible for Editor in 2.43 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.694 seconds
+Domain Reload Profiling: 1315ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (117ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (695ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (527ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 3.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (420.1 KB). Loaded Objects now: 5707.
+Memory consumption went from 216.7 MB to 216.3 MB.
+Total: 4.451800 ms (FindLiveObjects: 0.741500 ms CreateObjectMapping: 0.176300 ms MarkObjects: 3.182300 ms  DeleteObjects: 0.350200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1301538.467095 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations
+  artifactKey: Guid(0a7d64dc7bbdd894193127828a8744cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations using Guid(0a7d64dc7bbdd894193127828a8744cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d31a050dc36be104a84b2cad115da3b') in 0.001973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.081167 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/Shelve.001.prefab
+  artifactKey: Guid(cf4bc409920c78f448a95fe814724fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Combinations/Shelve.001.prefab using Guid(cf4bc409920c78f448a95fe814724fbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02c779fc37f089c926f07ae6f346dba') in 0.288707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 213
+========================================================================
+Received Import Request.
+  Time since last request: 62.428442 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props
+  artifactKey: Guid(1e1d586e07e8aa9419d53a4811151b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props using Guid(1e1d586e07e8aa9419d53a4811151b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd828630d0d3d350eeb18c565116fe0a') in 0.000575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.145207 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Anvil and Airblower
+  artifactKey: Guid(6f8fb6089209d9246a75a6d216aec507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Anvil and Airblower using Guid(6f8fb6089209d9246a75a6d216aec507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d46787a6f9cd9cd7ad3f11da7c941cb') in 0.000440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.091618 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Wagon
+  artifactKey: Guid(3b0abaa4f458f044a8b4bb3c7b9efecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Wagon using Guid(3b0abaa4f458f044a8b4bb3c7b9efecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917d496e4956b8a64c344b6f4a23abcf') in 0.000449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.061735 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Wagon/Wagon.001.prefab
+  artifactKey: Guid(446c00f3293ff304f8874188c4f3a422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Wagon/Wagon.001.prefab using Guid(446c00f3293ff304f8874188c4f3a422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12750c1930d2bca0c43548c779122319') in 0.049364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 1.993869 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Wagon/Wagon Parts
+  artifactKey: Guid(07176264f5ac01241bdee7bcdbe03f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Wagon/Wagon Parts using Guid(07176264f5ac01241bdee7bcdbe03f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e7558b09df6af688ecb8a2f9a71a9b') in 0.000484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.075439 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Wagon/Wagon Parts/Wagon.prefab
+  artifactKey: Guid(ff67018af3e009047a8c5ef9eaada9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Wagon/Wagon Parts/Wagon.prefab using Guid(ff67018af3e009047a8c5ef9eaada9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48730a8eeea442b750e78adaa651450') in 0.027262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Wagon/Wagon Parts/WagonWheel.prefab
+  artifactKey: Guid(06149c1ae660c564ab321d9c3842074a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Wagon/Wagon Parts/WagonWheel.prefab using Guid(06149c1ae660c564ab321d9c3842074a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e085e6f256e7e5ba6435cf75bdbcbde') in 0.031456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Wagon/Wagon Parts/WagonProp.prefab
+  artifactKey: Guid(9924e7d3fef4b754eae91575b112bb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Wagon/Wagon Parts/WagonProp.prefab using Guid(9924e7d3fef4b754eae91575b112bb8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2cad9d212dc57005d8afbb4fbfde7c') in 0.087163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 180.923981 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Materials
+  artifactKey: Guid(9a03d8cdf44dba14394bdc620354f1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Materials using Guid(9a03d8cdf44dba14394bdc620354f1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0837e0948b41d5eb5ed1ce526facde1') in 0.000611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.074144 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/GLOW BLUE.mat
+  artifactKey: Guid(40dfe4f29afe7dc4aa67d806dd271f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/GLOW BLUE.mat using Guid(40dfe4f29afe7dc4aa67d806dd271f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37ec70ab1cf83c2dadce3b594837ca7') in 0.052064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/PLANTS MATERIAL.mat
+  artifactKey: Guid(9254088aeea503c4a899388dc5733a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/PLANTS MATERIAL.mat using Guid(9254088aeea503c4a899388dc5733a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9a633ac478a45ae32e3a8e1d9c4963') in 0.122948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/PLANE MATERIAL.mat
+  artifactKey: Guid(d3878f220d800344497382609e25c5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Materials/PLANE MATERIAL.mat using Guid(d3878f220d800344497382609e25c5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b8bc4292a154c089204f02f2319fbf') in 0.009968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 33.159317 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Terrain
+  artifactKey: Guid(551aef7ec8b2eab49abd9b06b5be2c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Terrain using Guid(551aef7ec8b2eab49abd9b06b5be2c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb7011e22155f1cee5a720f28197cddf') in 0.000423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.065839 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Terrain/Terrain.prefab
+  artifactKey: Guid(30322853b192eb94da5368c9eec26b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Terrain/Terrain.prefab using Guid(30322853b192eb94da5368c9eec26b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4f53a30c40cf0e12772c6fe7aee205') in 0.042972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 10.664942 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields
+  artifactKey: Guid(7ef22a63425613d4a8729832a49d80e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Weapons and Shields using Guid(7ef22a63425613d4a8729832a49d80e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d5260624dd3db5917409bf3b42f9e6') in 0.000590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.839621 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content
+  artifactKey: Guid(e32529f6d5c3edd4f88912568fe26363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content using Guid(e32529f6d5c3edd4f88912568fe26363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0070b5fa94a05ece4611968e3838876a') in 0.000436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.471554 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Farm - Props
+  artifactKey: Guid(5f05e2b028e5a6b40ab531660af82e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Farm - Props using Guid(5f05e2b028e5a6b40ab531660af82e43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b83c2ff85ebfe89d2e3aad18519da27') in 0.000417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.775642 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Female Character Hetalia - Props
+  artifactKey: Guid(487f33fd51f3bcd4390aa64a9805146b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Female Character Hetalia - Props using Guid(487f33fd51f3bcd4390aa64a9805146b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623576deecccf14b06bed2ba6c32f3ab') in 0.000439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.772885 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Female Character Leona - Props
+  artifactKey: Guid(8a02be920dada0046a538478e6efcab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Female Character Leona - Props using Guid(8a02be920dada0046a538478e6efcab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f9988eb749e34e524db34114eecfbb') in 0.000439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.914866 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Male Character Butcher - Props
+  artifactKey: Guid(ac5694fc77de4c84ab769e27ed4c5c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Male Character Butcher - Props using Guid(ac5694fc77de4c84ab769e27ed4c5c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef549130b6d9629e1c82316e085cf05') in 0.000445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.816068 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Herbalism Pack - Props
+  artifactKey: Guid(dae63704db3262344b6303f3e30b47c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Fantasy Herbalism Pack - Props using Guid(dae63704db3262344b6303f3e30b47c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb655ab4b660ab37d1e23c3a3301998') in 0.000485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.520153 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Nature Pack - Mountains
+  artifactKey: Guid(246a185bdb083124198e2b689f31411e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Extra Content/Nature Pack - Mountains using Guid(246a185bdb083124198e2b689f31411e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a58f2dcfa21eff010f84f2eeb1a590') in 0.000448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 193.636703 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Entrance Arch
+  artifactKey: Guid(e531f4b818e04bd4eb0cc013503251b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Entrance Arch using Guid(e531f4b818e04bd4eb0cc013503251b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2766ac138c625f6fafaa3dfed139e92') in 0.000536 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.506755 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Helmet
+  artifactKey: Guid(cf909e46b42048b4db45b450f578d316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Helmet using Guid(cf909e46b42048b4db45b450f578d316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84161e1be1d348f729aa5f22edffe9c5') in 0.000455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.380328 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Inkwell and Feather
+  artifactKey: Guid(169016e0a16d250459e913863725e71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Inkwell and Feather using Guid(169016e0a16d250459e913863725e71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a1b21f85c3b1fecd8ffba75cc49b8e') in 0.000538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.491412 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Shelve
+  artifactKey: Guid(9a04fee61f131d24a886b56b1fd260ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Shelve using Guid(9a04fee61f131d24a886b56b1fd260ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacf8b7cb00b821f4e683d0813476159') in 0.000447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.061351 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Shelve/Shelve.001.prefab
+  artifactKey: Guid(47b6443892d32ae499c2808538dd737b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Shelve/Shelve.001.prefab using Guid(47b6443892d32ae499c2808538dd737b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdfeb6345603c38d3e5277e6960679e') in 0.025796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Shelve/Shelve.003.prefab
+  artifactKey: Guid(2b7d6541113c03e4ab45315d40bc6be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Shelve/Shelve.003.prefab using Guid(2b7d6541113c03e4ab45315d40bc6be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c1ef1d619765f63b72f849ef4471a5') in 0.026963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.616 seconds
+Refreshing native plugins compatible for Editor in 2.60 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 19.477 seconds
+Domain Reload Profiling: 21090ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (128ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (1242ms)
+		LoadAssemblies (1338ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (19478ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (535ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (149ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 3.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (386.6 KB). Loaded Objects now: 5806.
+Memory consumption went from 192.9 MB to 192.6 MB.
+Total: 3.904400 ms (FindLiveObjects: 0.461100 ms CreateObjectMapping: 0.173400 ms MarkObjects: 3.131200 ms  DeleteObjects: 0.137400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.520 seconds
+Refreshing native plugins compatible for Editor in 2.41 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.311 seconds
+Domain Reload Profiling: 1828ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (270ms)
+		LoadAssemblies (342ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1311ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (564ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 3.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (386.9 KB). Loaded Objects now: 5822.
+Memory consumption went from 194.8 MB to 194.4 MB.
+Total: 3.511400 ms (FindLiveObjects: 0.452000 ms CreateObjectMapping: 0.158900 ms MarkObjects: 2.772200 ms  DeleteObjects: 0.127500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 284.566697 seconds.
+  path: Assets/Prefabs/Shelve.001 Variant.prefab
+  artifactKey: Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Shelve.001 Variant.prefab using Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fac0a8b2cc1cfbcd189597ab90c9c5') in 0.253350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 3.142936 seconds.
+  path: Assets/Prefabs/Raf.prefab
+  artifactKey: Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf.prefab using Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d2d3e81bb4ce34ec2391296383118c') in 0.019123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 16.260688 seconds.
+  path: Assets/Prefabs/Raf.prefab
+  artifactKey: Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf.prefab using Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed4ea0a5c5a818b4e6ea1ad73da7f0b') in 0.022151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 3.186272 seconds.
+  path: Assets/Prefabs/Raf.prefab
+  artifactKey: Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf.prefab using Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e9c1a9ed35254a4756e7243dd83e3c') in 0.013007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 7.073949 seconds.
+  path: Assets/Prefabs/Raf.prefab
+  artifactKey: Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf.prefab using Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040e28e0444e2c4bb31d872daefc2716') in 0.011103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 57.844413 seconds.
+  path: Assets/Prefabs/Raf.prefab
+  artifactKey: Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf.prefab using Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdbd506312f8419065856d9c6c0dfa8') in 0.012341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 19.283341 seconds.
+  path: Assets/Prefabs/Raf.prefab
+  artifactKey: Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf.prefab using Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c5b12f20f3868e7c0112b6c394b79c') in 0.011041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 73.234644 seconds.
+  path: Assets/Prefabs/Raf.prefab
+  artifactKey: Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf.prefab using Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e472bcca03295ce13b226a72d5a545') in 0.015069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 36.237238 seconds.
+  path: Assets/Prefabs/Raf.prefab
+  artifactKey: Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf.prefab using Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921f1691cb6093645f4738ea95ba3887') in 0.016991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 11.857404 seconds.
+  path: Assets/Prefabs/Raf.prefab
+  artifactKey: Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf.prefab using Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150f599f54109560e1259ceef118538c') in 0.012576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 5.637456 seconds.
+  path: Assets/Prefabs/Raf.prefab
+  artifactKey: Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf.prefab using Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e632191f4837955bfe2f0cc7e74af15') in 0.010736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 8.182149 seconds.
+  path: Assets/Prefabs/Raf.prefab
+  artifactKey: Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf.prefab using Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d930a87a75c4617643fc305d9c9f7e2') in 0.010861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 0.781671 seconds.
+  path: Assets/Prefabs/Raf.prefab
+  artifactKey: Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf.prefab using Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397399e607dda98cb7fbde929e65e4e3') in 0.010903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 0.586865 seconds.
+  path: Assets/Prefabs/Raf.prefab
+  artifactKey: Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf.prefab using Guid(24cdc24f497657943a826a8ab181f7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e428bafcd5065105af7c7651b70d39') in 0.010817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 862.734543 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806ec1049acedf656987a3bcddfff256') in 0.020244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 13.994515 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63440f812b41873b99e9b829b4257172') in 0.031700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 46.126725 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74dd83827665c0b60ef50761ce775c1') in 0.011979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 7.245285 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ed8f52100700d6cf14fadaae9312eb') in 0.010350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 2.808019 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a1d1abb4d51e249eaef587cf83c193') in 0.011231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 8.654953 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e014eb9b6881671a2ba689b932c6d8') in 0.015973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 1.386382 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e072afd13c2a69afa713ee354291af2') in 0.011188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 2.804968 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257cc80d3ba86435b954a2e817b66b50') in 0.010282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 4.224288 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5f153e23482ab5d4f5fa21f402d881') in 0.013895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 3.804659 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fba231e12b1c56126e74ce0a07a268') in 0.011047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 3.436187 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ada881dec6ee72a9d7e2a5d95b4cb4') in 0.012922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 4.190679 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b855c151981a0d21298c82fb1b0f423') in 0.011809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 2.200119 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e9c2779f25b85154e0efa665e6027d') in 0.010602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 3.622866 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59df347a829bd3731c25d29f280c59a') in 0.015935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.986935 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba371b90c8e566e13d9941773d39f701') in 0.011586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 2.012185 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e7dad792f1c56bc245da8243824087a') in 0.025290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 0.985366 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6db57fbb25515d4974ec955488a2618') in 0.011077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 18.753331 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3d356a5f9601e9337c2caf3d62c4f2') in 0.011566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.200727 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1401cfd97977bd0cebaf622a1419da4d') in 0.011816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.586764 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2354d8abcaa42fc58cbd92a10ebc4971') in 0.012548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.588593 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5f599e2de121ffa8795afa6be834f6') in 0.011369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.593437 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd81d952c387a99ce96cd817d0c1831') in 0.011981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.388958 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad68ee65c2959e51f9d3817db52f38b') in 0.012006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.375632 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618834920aeb19524288b516704f2e73') in 0.012243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 5.260750 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f216c7fd35990bfb3759b43f298421') in 0.011416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.005214 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2095fe2954dad49b9b6b35b503b3418') in 0.012941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.013331 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2637e2019def204729ef06d0fe161f16') in 0.010608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 3.025302 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1587430e8d2ca798ef00f5080e1a626') in 0.010939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.230745 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5dae60a0b624860427907802979b9b3') in 0.011252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.812620 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9906a167e6e7ffbba0ee6018a734100') in 0.010554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 34.181025 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debd540af97852bd86089b93d3ef5c0b') in 0.012488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 3.871535 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279e4473c5d22f90f5adedae0fb2747b') in 0.011247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 2.001451 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23059b9e45ecd7205cd2d3ffe41716d') in 0.010315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 5.916391 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0381c79619dd45b31b749cdf0a6825') in 0.011894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 0.126984 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab911628492490980dcae6c4c4ba3c2a') in 0.012177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Import Request.
+  Time since last request: 35.313201 seconds.
+  path: Assets/Prefabs/Raf Variant.prefab
+  artifactKey: Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Raf Variant.prefab using Guid(0a5437ff6fa99f241a793810b49e65c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ba2f8f97236ae070e555180656988b') in 0.012098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 45
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.499 seconds
+Refreshing native plugins compatible for Editor in 2.53 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.345 seconds
+Domain Reload Profiling: 1842ms
+	BeginReloadAssembly (177ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (240ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1346ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (583ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (155ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 3.14 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (386.9 KB). Loaded Objects now: 5874.
+Memory consumption went from 197.1 MB to 196.7 MB.
+Total: 4.230800 ms (FindLiveObjects: 0.582700 ms CreateObjectMapping: 0.161500 ms MarkObjects: 3.303000 ms  DeleteObjects: 0.182600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77.018412 seconds.
+  path: Assets/Items/MagicLampItem.asset
+  artifactKey: Guid(43f8c366d4892db429c198e6d7ed4d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Items/MagicLampItem.asset using Guid(43f8c366d4892db429c198e6d7ed4d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550e046045a5df67a8895be524fd5e41') in 0.044400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 48.093001 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bottles
+  artifactKey: Guid(39f23eacdf051b34297f1548434d0932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bottles using Guid(39f23eacdf051b34297f1548434d0932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e296a4e015fe1c1dcee1bdd347ba226') in 0.000522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.060810 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bottles/Bottle.001.prefab
+  artifactKey: Guid(e8d0267268fd35b47bf244738aff1879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bottles/Bottle.001.prefab using Guid(e8d0267268fd35b47bf244738aff1879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619e923b6decde42839671961023cd1f') in 0.281489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bottles/Bottle.008.prefab
+  artifactKey: Guid(e7b08caaadd3f8044aa74608761a5864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bottles/Bottle.008.prefab using Guid(e7b08caaadd3f8044aa74608761a5864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780dc1e05257f736bfa5c34b4f959d43') in 0.030449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bottles/Bottle.012.prefab
+  artifactKey: Guid(69bfa91247d7ca34babf21351d9ac30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bottles/Bottle.012.prefab using Guid(69bfa91247d7ca34babf21351d9ac30e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbbf63df1de9924028684150e9eed6a') in 0.027550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bottles/Bottle.009.prefab
+  artifactKey: Guid(3d34adb10bdf7784aaad33b35cd059e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bottles/Bottle.009.prefab using Guid(3d34adb10bdf7784aaad33b35cd059e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ade82aa2eaa9481b8319f6952c60f2d') in 0.027549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bottles/Bottle.005.prefab
+  artifactKey: Guid(785657bac6bf921469c134a8417b6211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Daniel Mistage/Stylized Fantasy Armory/Prefabs/Decorative Props/Bottles/Bottle.005.prefab using Guid(785657bac6bf921469c134a8417b6211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed01510cdab7462451c612bda316ae3') in 0.027968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.529 seconds
+Refreshing native plugins compatible for Editor in 2.68 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.392 seconds
+Domain Reload Profiling: 1918ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (245ms)
+		LoadAssemblies (335ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1392ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (630ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (35ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (316ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 2.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (386.5 KB). Loaded Objects now: 5927.
+Memory consumption went from 199.1 MB to 198.7 MB.
+Total: 3.582300 ms (FindLiveObjects: 0.459500 ms CreateObjectMapping: 0.164400 ms MarkObjects: 2.814900 ms  DeleteObjects: 0.142500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: Bir iþ parçacýðý çýkýþý veya bir uygulama isteði nedeniyle G/Ç iþlemi iptal edildi.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
