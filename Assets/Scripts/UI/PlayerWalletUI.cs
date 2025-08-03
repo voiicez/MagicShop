@@ -3,19 +3,32 @@ using UnityEngine;
 
 public class PlayerWalletUI : MonoBehaviour
 {
-    private PlayerWallet wallet;
     public TextMeshProUGUI goldText;
+
+    void OnEnable()
+    {
+        PlayerWallet.OnGoldChanged += UpdateGoldDisplay;
+    }
+
+    void OnDisable()
+    {
+        PlayerWallet.OnGoldChanged -= UpdateGoldDisplay;
+    }
 
     void Start()
     {
-        wallet = FindObjectOfType<PlayerWallet>();
+        var wallet = FindObjectOfType<PlayerWallet>();
+        if (wallet != null)
+        {
+            UpdateGoldDisplay(wallet.currentGold);
+        }
     }
 
-    void Update()
+    private void UpdateGoldDisplay(int goldAmount)
     {
-        if (wallet != null && goldText != null)
+        if (goldText != null)
         {
-            goldText.text = "Gold: " + wallet.currentGold.ToString();
+            goldText.text = $"Gold: {goldAmount}";
         }
     }
 }

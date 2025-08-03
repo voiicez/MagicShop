@@ -6,22 +6,26 @@ public class DecorationPlacer : MonoBehaviour
     public GameObject ghostPrefab;
     public GameObject actualPrefab;
     public LayerMask groundLayer;
-    //
+
     private GameObject ghostInstance;
     private Quaternion currentRotation = Quaternion.identity;
+    private bool canPlace = false;
 
     void Start()
     {
         ghostInstance = Instantiate(ghostPrefab);
+        ghostInstance.SetActive(false); // Baþta devre dýþý
     }
 
     void Update()
     {
+        if (!canPlace) return; // Seçim yapýlmadýysa iþlem yapma.
+
         UpdateGhostPosition();
 
         if (Keyboard.current.rKey.wasPressedThisFrame)
         {
-            currentRotation *= Quaternion.Euler(0, 45, 0); // 45 derece döndür
+            currentRotation *= Quaternion.Euler(0, 45, 0);
         }
 
         if (Keyboard.current.eKey.wasPressedThisFrame)
@@ -42,8 +46,24 @@ public class DecorationPlacer : MonoBehaviour
 
     void PlaceObject()
     {
-        Instantiate(actualPrefab, ghostInstance.transform.position, currentRotation);
-        Destroy(ghostInstance);
-        Destroy(this); // bu yerleþtirme iþi bitti
+        Instantiate(actualPrefab, ghostInstance.transform.position, ghostInstance.transform.rotation);
+        canPlace = false;
+        ghostInstance.SetActive(false); // yerleþtirildiðinde ghost kapanýr
+    }
+
+    // Dýþarýdan çaðrýlýr (örneðin UI butonu)
+    public void SelectObjectToPlace(GameObject ghost, GameObject actual)
+    {
+        ghostPrefab = ghost;
+        actualPrefab = actual;
+
+        if (ghostInstance != null)
+            Destroy(ghostInstance);
+
+        ghostInstance = Instantiate(ghostPrefab);
+        ghostInstance.SetActive(true);
+
+        currentRotation = Quaternion.identity;
+        canPlace = true;
     }
 }

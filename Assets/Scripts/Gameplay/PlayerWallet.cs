@@ -1,24 +1,37 @@
 using UnityEngine;
+using System;
 
 public class PlayerWallet : MonoBehaviour
 {
-    public int currentGold = 0;
+    [SerializeField] private int _currentGold = 100;
+
+    public int currentGold => _currentGold;
+
+    public static event Action<int> OnGoldChanged;
+
+    void Start()
+    {
+        OnGoldChanged?.Invoke(_currentGold);
+    }
 
     public void AddGold(int amount)
     {
-        currentGold += amount;
-        Debug.Log("Altýn eklendi: " + amount + " | Toplam: " + currentGold);
+        _currentGold += Mathf.Max(0, amount);
+        OnGoldChanged?.Invoke(_currentGold);
+        Debug.Log($"Gold eklendi: +{amount}. Toplam: {_currentGold}");
     }
 
     public bool SpendGold(int amount)
     {
-        if (currentGold >= amount)
+        if (_currentGold >= amount)
         {
-            currentGold -= amount;
+            _currentGold -= amount;
+            OnGoldChanged?.Invoke(_currentGold);
+            Debug.Log($"Gold harcandý: -{amount}. Kalan: {_currentGold}");
             return true;
         }
 
-        Debug.Log("Yetersiz altýn!");
+        Debug.Log($"Yetersiz gold! Gerekli: {amount}, Mevcut: {_currentGold}");
         return false;
     }
 }

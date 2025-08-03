@@ -8,10 +8,15 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5357351365345727917, guid: e7b08caaadd3f8044aa74608761a5864,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 300c313c7c8fff24283c6a18952709f3, type: 2}
     - target: {fileID: 5861961437660673144, guid: e7b08caaadd3f8044aa74608761a5864,
         type: 3}
       propertyPath: m_Name
-      value: Potion
+      value: Potion 1
       objectReference: {fileID: 0}
     - target: {fileID: 5861961437660673144, guid: e7b08caaadd3f8044aa74608761a5864,
         type: 3}

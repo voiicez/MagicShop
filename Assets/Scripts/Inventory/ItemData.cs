@@ -1,12 +1,26 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Item", menuName = "Inventory/Item")]
+[CreateAssetMenu(fileName = "NewItem", menuName = "Shop/Item Data")]
 public class ItemData : ScriptableObject
 {
+    [Header("Basic Info")]
     public string itemName;
-    public Sprite icon;
-    public GameObject prefab;
     public int price;
-    public GameObject ghostPrefab; // Elindeki eþyanýn hayalet hali
+    public Sprite icon;
 
+    [Header("Prefabs")]
+    public GameObject prefab;
+    public GameObject ghostPrefab;
+
+    [Header("Item Properties")]
+    public ItemType itemType = ItemType.Sellable;
+    public bool isStackable = false;
+    public int maxStackSize = 1;
+}
+
+public enum ItemType
+{
+    Sellable,
+    Decorative,
+    Consumable
 }

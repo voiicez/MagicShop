@@ -17,9 +17,9 @@ TagManager:
   - UI
   - Item
   - Ground
-  - 
-  - 
-  - 
+  - Pickable
+  - 'Placeable '
+  - 'Sellable '
   - 
   - 
   - 

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf04b126747121a4fb538048530048e3, type: 3}
-  m_Name: TestPotion
+  m_Name: TestScroll
   m_EditorClassIdentifier: 
-  itemName: TestPotion
-  price: 3
+  itemName: TestScroll
+  price: 5
   icon: {fileID: 0}
-  prefab: {fileID: 4875600080876634358, guid: e6724714e3b680846917ca251356cd50, type: 3}
-  ghostPrefab: {fileID: 4875600080876634358, guid: c498c14725fe56347a8733ff5d508240,
+  prefab: {fileID: 945288550416305673, guid: cd2ac98f3a0fcfa42a14f50b966c0b2e, type: 3}
+  ghostPrefab: {fileID: 945288550416305673, guid: ee86e885ab1521544adf4cba1c77a777,
     type: 3}
   itemType: 0
   isStackable: 0

@@ -62,12 +62,16 @@
   <ItemGroup>
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\CanvasInputs\UICanvasControllerInput.cs" />
     <Compile Include="Assets\Scripts\AI\CustomerAI.cs" />
+    <Compile Include="Assets\Scripts\UI\ShopItemUI.cs" />
     <Compile Include="Assets\Scripts\Gameplay\ItemSeller.cs" />
     <Compile Include="Assets\Scripts\Inventory\DecorativeItemData.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\DropzoneSlot.cs" />
     <Compile Include="Assets\Scripts\Gameplay\DecorationManager.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerWallet.cs" />
     <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
+    <Compile Include="Assets\Scripts\Inventory\PickableItem.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualTouchZone.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\DropzoneManager.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualButton.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Inventory\PlaceableSurface.cs" />
@@ -83,6 +87,7 @@
     <Compile Include="Assets\Scripts\Gameplay\OutlineHighlighter.cs" />
     <Compile Include="Assets\Scripts\UI\PlayerWalletUI.cs" />
     <Compile Include="Assets\StarterAssets\InputSystem\StarterAssetsInputs.cs" />
+    <Compile Include="Assets\Scripts\UI\ShopUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
