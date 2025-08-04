@@ -1,12 +1,16 @@
-﻿using UnityEngine;
+﻿using StarterAssets;
+using System;
+using UnityEngine;
 
 public class SellableItem : MonoBehaviour
 {
     [Header("Item Settings")]
     public ItemData itemData;
+[Header("Visual Feedback")]
+private OutlineHighlighter highlighter;
 
-    [Header("Visual Feedback")]
-    private OutlineHighlighter highlighter;
+    private Transform playerTransform;
+    private PickableItem pickableItem;
 
     void Start()
     {
@@ -20,6 +24,16 @@ public class SellableItem : MonoBehaviour
         {
             Debug.LogWarning($"SellableItem on {gameObject.name} has no ItemData assigned!");
         }
+
+        // Oyuncu referansını al
+        var playerController = FindObjectOfType<FirstPersonController>();
+        if (playerController != null)
+        {
+            playerTransform = playerController.transform;
+        }
+
+        // PickableItem referansını al
+        pickableItem = GetComponent<PickableItem>();
     }
 
     public bool CanSell()
@@ -61,20 +75,41 @@ public class SellableItem : MonoBehaviour
         }
     }
 
-    // Mouse hover için
+    // Mouse hover başladı
     void OnMouseEnter()
     {
-        if (highlighter != null)
-        {
-            highlighter.Highlight();
-        }
+        CheckHighlight();
     }
 
+    // Mouse hover boyunca her frame çağrılır
+    void OnMouseOver()
+    {
+        CheckHighlight();
+    }
+
+    // Mouse hover bitti
     void OnMouseExit()
     {
         if (highlighter != null)
         {
             highlighter.RemoveHighlight();
+        }
+    }
+
+    // Mesafe kontrolü yaparak highlight durumunu güncelle
+    private void CheckHighlight()
+    {
+        if (highlighter != null && playerTransform != null && pickableItem != null)
+        {
+            float distance = Vector3.Distance(transform.position, playerTransform.position);
+            if (distance <= pickableItem.pickupRange)
+            {
+                highlighter.Highlight();
+            }
+            else
+            {
+                highlighter.RemoveHighlight();
+            }
         }
     }
 }

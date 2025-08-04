@@ -1,12 +1,13 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class PickableItem : MonoBehaviour
 {
     [Header("Item Settings")]
     public ItemData itemData;
 
-    [Header("Pickup Settings")]
-    public float pickupRange = 3f;
+[Header("Pickup Settings")]
+public float pickupRange = 3f;
 
     private OutlineHighlighter outliner;
 
@@ -36,7 +37,12 @@ public class PickableItem : MonoBehaviour
     {
         if (itemPlacer == null || itemData == null) return;
 
-        // Yeni sistemde WarehouseItem referansı olmadığından bu kısım kaldırıldı
+        // Eğer bu nesne bir ShelfSlot’un child’ı ise, slotu boşalt
+        ShelfSlot shelfSlot = transform.parent != null ? transform.parent.GetComponent<ShelfSlot>() : null;
+        if (shelfSlot != null)
+        {
+            shelfSlot.DetachItem(gameObject);
+        }
 
         itemPlacer.PickupItem(itemData, gameObject);
         Debug.Log($"{itemData.itemName} alındı!");

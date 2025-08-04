@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Gameplay\ItemSeller.cs" />
     <Compile Include="Assets\Scripts\Inventory\DecorativeItemData.cs" />
     <Compile Include="Assets\Scripts\Gameplay\DropzoneSlot.cs" />
+    <Compile Include="Assets\BrokenVector\LowPolyDungeon\Demo Scenes\MouseCamLook.cs" />
     <Compile Include="Assets\Scripts\Gameplay\DecorationManager.cs" />
     <Compile Include="Assets\Scripts\Gameplay\PlayerWallet.cs" />
     <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
@@ -76,12 +77,16 @@
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Inventory\PlaceableSurface.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\VirtualInputs\UIVirtualJoystick.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\ShelfSlot.cs" />
     <Compile Include="Assets\Scripts\Inventory\SellableItem.cs" />
     <Compile Include="Assets\Scripts\Inventory\ItemData.cs" />
+    <Compile Include="Assets\BrokenVector\LowPolyDungeon\Demo Scenes\ScreenshotMaker.cs" />
     <Compile Include="Assets\StarterAssets\Mobile\Scripts\Utilities\MobileDisableAutoSwitchControls.cs" />
+    <Compile Include="Assets\Scripts\Gameplay\ShelfManager.cs" />
     <Compile Include="Assets\Scripts\Gameplay\DecorationPlacer.cs" />
     <Compile Include="Assets\Scripts\Inventory\ItemPlacer.cs" />
     <Compile Include="Assets\StarterAssets\FirstPersonController\Scripts\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\BrokenVector\LowPolyDungeon\Demo Scenes\PlayerMovement.cs" />
     <Compile Include="Assets\StarterAssets\FirstPersonController\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Scripts\Gameplay\DecorInteraction.cs" />
     <Compile Include="Assets\Scripts\Gameplay\OutlineHighlighter.cs" />

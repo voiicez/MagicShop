@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "M:\\Unity\\Projeler\\MagicShopSim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|M:\\Unity\\Projeler\\MagicShopSim\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.9\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.9\\Shaders\\Lit.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\gameplay\\shelfmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameplay\\shelfmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\gameplay\\outlinehighlighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameplay\\outlinehighlighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\gameplay\\shelfslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameplay\\shelfslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\ui\\shopui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\shopui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|m:\\unity\\projeler\\magicshopsim\\assets\\scripts\\inventory\\itemplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\itemplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\inventory\\pickableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\pickableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\inventory\\sellableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\sellableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\gameplay\\itemseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameplay\\itemseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\gameplay\\outlinehighlighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameplay\\outlinehighlighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\gameplay\\dropzoneslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameplay\\dropzoneslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\ui\\shopui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\shopui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\gameplay\\dropzonemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,18 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\gameplay\\decorationplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameplay\\decorationplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\inventory\\sellableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\sellableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\inventory\\itemplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\itemplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\gameplay\\itemseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gameplay\\itemseller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F670C615-9C58-9AB2-A573-7988E9EFD2CE}|Assembly-CSharp.csproj|M:\\Unity\\Projeler\\MagicShopSim\\assets\\scripts\\ui\\shopitemui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,7 +118,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "ShelfManager.cs",
+              "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\ShelfManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Gameplay\\ShelfManager.cs",
+              "ToolTip": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\ShelfManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Gameplay\\ShelfManager.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwB4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T17:55:56.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShelfSlot.cs",
+              "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\ShelfSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Gameplay\\ShelfSlot.cs",
+              "ToolTip": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\ShelfSlot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Gameplay\\ShelfSlot.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T17:55:08.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DropzoneSlot.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\DropzoneSlot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Gameplay\\DropzoneSlot.cs",
@@ -126,43 +156,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DecorInteraction.cs",
-              "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\DecorInteraction.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Gameplay\\DecorInteraction.cs",
-              "ToolTip": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\DecorInteraction.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Gameplay\\DecorInteraction.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T14:56:48.164Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "ItemSeller.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\ItemSeller.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Gameplay\\ItemSeller.cs",
               "ToolTip": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\ItemSeller.cs",
               "RelativeToolTip": "Assets\\Scripts\\Gameplay\\ItemSeller.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAA0wEYAAAABAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAswEYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-01T13:33:21.614Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DecorationManager.cs",
-              "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\DecorationManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Gameplay\\DecorationManager.cs",
-              "ToolTip": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\DecorationManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Gameplay\\DecorationManager.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAcwGoAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T14:45:14.881Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "DecorationPlacer.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\DecorationPlacer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Gameplay\\DecorationPlacer.cs",
@@ -174,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "ShopUI.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\UI\\ShopUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ShopUI.cs",
@@ -192,50 +198,75 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\PickableItem.cs",
               "ToolTip": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Inventory\\PickableItem.cs",
               "RelativeToolTip": "Assets\\Scripts\\Inventory\\PickableItem.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA4wCwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T18:11:00.233Z"
+              "WhenOpened": "2025-08-01T18:11:00.233Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "OutlineHighlighter.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\OutlineHighlighter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Gameplay\\OutlineHighlighter.cs",
               "ToolTip": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\OutlineHighlighter.cs",
               "RelativeToolTip": "Assets\\Scripts\\Gameplay\\OutlineHighlighter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFMAAAABAAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAIwFMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-01T15:14:09.323Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Lit.shader",
-              "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.9\\Shaders\\Lit.shader",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.9\\Shaders\\Lit.shader",
-              "ToolTip": "M:\\Unity\\Projeler\\MagicShopSim\\Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.9\\Shaders\\Lit.shader",
-              "RelativeToolTip": "Library\\PackageCache\\com.unity.render-pipelines.universal@14.0.9\\Shaders\\Lit.shader",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2025-08-01T17:07:30.903Z",
+              "DocumentIndex": 2,
+              "Title": "ItemPlacer.cs",
+              "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Inventory\\ItemPlacer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\ItemPlacer.cs",
+              "ToolTip": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Inventory\\ItemPlacer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\ItemPlacer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:02:17.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
+              "Title": "DecorationManager.cs",
+              "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\DecorationManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Gameplay\\DecorationManager.cs",
+              "ToolTip": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\DecorationManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Gameplay\\DecorationManager.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAcwGoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T14:45:14.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SellableItem.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Inventory\\SellableItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\SellableItem.cs",
               "ToolTip": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Inventory\\SellableItem.cs",
               "RelativeToolTip": "Assets\\Scripts\\Inventory\\SellableItem.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAiwEkAAAAFAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-01T13:31:58.276Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 13,
+              "Title": "DecorInteraction.cs",
+              "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\DecorInteraction.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Gameplay\\DecorInteraction.cs",
+              "ToolTip": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\DecorInteraction.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Gameplay\\DecorInteraction.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T14:56:48.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "WarehouseManager.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\WarehouseManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Gameplay\\WarehouseManager.cs",
@@ -247,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "DropzoneManager.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\DropzoneManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Gameplay\\DropzoneManager.cs",
@@ -259,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ShopItemUI.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\UI\\ShopItemUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ShopItemUI.cs",
@@ -271,19 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ItemPlacer.cs",
-              "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Inventory\\ItemPlacer.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\ItemPlacer.cs",
-              "ToolTip": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Inventory\\ItemPlacer.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Inventory\\ItemPlacer.cs",
-              "ViewState": "AQIAAJABAAAAAAAAAAAcwK8BAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T13:02:17.135Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "WarehouseItem.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Inventory\\WarehouseItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\WarehouseItem.cs",
@@ -295,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "DecorativeItemData.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Inventory\\DecorativeItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\DecorativeItemData.cs",
@@ -307,7 +326,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "PlayerWalletUI.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\UI\\PlayerWalletUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\PlayerWalletUI.cs",
@@ -319,7 +338,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "CustomerAI.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\AI\\CustomerAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AI\\CustomerAI.cs",
@@ -331,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "PlayerWallet.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Gameplay\\PlayerWallet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Gameplay\\PlayerWallet.cs",
@@ -343,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ItemData.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Inventory\\ItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\ItemData.cs",
@@ -355,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "PlaceableSurface.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Inventory\\PlaceableSurface.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\PlaceableSurface.cs",
@@ -367,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "Inventory.cs",
               "DocumentMoniker": "M:\\Unity\\Projeler\\MagicShopSim\\Assets\\Scripts\\Inventory\\Inventory.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\Inventory.cs",
